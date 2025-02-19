@@ -13,7 +13,3 @@ const filteredTasks = tasks.filter((task) => {
   return matchesSearch && matchesPriority && matchesStatus;
 });
 
-
-const sortedTasks = tasks.toSorted((a, b) => a.title.localeCompare(b.title));
-console.log(sortedTasks);
-console.log(tasks); // Original array remains unchanged
