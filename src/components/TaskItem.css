@@ -1,0 +1,39 @@
+/* TaskItem.css */
+.task-item {
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.task-item h3 {
+  color: #222;
+}
+.task-item p {
+  color: #555;
+}
+.task-item .buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.task-item button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.task-item button:hover {
+  opacity: 0.9;
+}
+.task-item .edit {
+  background-color: #007bff;
+  color: white;
+}
+.task-item .delete {
+  background-color: #dc3545;
+  color: white;
+}
